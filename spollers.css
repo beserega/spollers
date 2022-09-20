@@ -1,3 +1,9 @@
+.container {
+	widht: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
 /* Базовые стили спойлеров */
 
 /* Блок со спойлерами */
@@ -12,7 +18,7 @@
 }
 
 .spollers__item:not(:last-child) {
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 /* Заголовок спойлера */
@@ -21,7 +27,7 @@
 	cursor: default;
 	text-align: left;
 	border: 1px solid #eee;
-	padding: 10px 15px;
+	padding: 30px 15px;
 	border-radius: 5px;
 	position: relative;
 }
