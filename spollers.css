@@ -4,12 +4,19 @@
 	margin: 0 auto;
 }
 
+hr {
+	margin: 10px 0;
+	height: 1px;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+}
+
 /* Базовые стили спойлеров */
 
 /* Блок со спойлерами */
 .spollers {
 	display: grid;
-	gap: 15px;
+/* 	gap: 15px; */
 }
 
 /* Спойлер */
