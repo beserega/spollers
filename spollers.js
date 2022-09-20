@@ -1,5 +1,5 @@
 // Вспомогательные модули плавного расскрытия и закрытия объекта ======================================================================================================================================================================
-export let _slideUp = (target, duration = 500, showmore = 0) => {
+let _slideUp = (target, duration = 500, showmore = 0) => {
    if (!target.classList.contains('_slide')) {
       target.classList.add('_slide');
       target.style.transitionProperty = 'height, margin, padding';
@@ -26,7 +26,8 @@ export let _slideUp = (target, duration = 500, showmore = 0) => {
       }, duration);
    }
 };
-export let _slideDown = (target, duration = 500, showmore = 0) => {
+
+let _slideDown = (target, duration = 500, showmore = 0) => {
    if (!target.classList.contains('_slide')) {
       target.classList.add('_slide');
       target.hidden = target.hidden ? false : null;
@@ -55,7 +56,8 @@ export let _slideDown = (target, duration = 500, showmore = 0) => {
       }, duration);
    }
 };
-export let _slideToggle = (target, duration = 500) => {
+
+let _slideToggle = (target, duration = 500) => {
    if (target.hidden) {
       return _slideDown(target, duration);
    } else {
@@ -75,7 +77,8 @@ data-spollers="768,min" - спойлеры будут работать толь�
 
 Если нужно что бы в блоке открывался болько один слойлер добавляем атрибут data-one-spoller
 */
-export function spollers() {
+spollers()
+function spollers() {
    const spollersArray = document.querySelectorAll('[data-spollers]');
    if (spollersArray.length > 0) {
       // Получение обычных слойлеров
