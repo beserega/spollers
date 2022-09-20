@@ -15,7 +15,7 @@ data-spollers = " 768, **min** " - спойлеры будут работать 
 ###
 [Смотреть демо](https://beserega.github.io/spollers/) ( _Открыть в новой вклвдке_  **CTRL + ЛКМ**  )
 #
-#### Базовый html (работают все споллеры).
+#### Базовый html ( работают все споллеры ).
 ```
 <div data-spollers class="spollers">
     <!-- споллер -->
@@ -29,7 +29,7 @@ data-spollers = " 768, **min** " - спойлеры будут работать 
 </div>
 ```
 #
-#### Базовый html (работает один споллер).
+#### Базовый html ( работает один споллер ).
 ```
 <div data-spollers data-one-spoller class="spollers">
     <!-- споллер -->
