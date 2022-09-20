@@ -77,7 +77,7 @@ data-spollers="768,min" - спойлеры будут работать толь�
 
 Если нужно что бы в блоке открывался болько один слойлер добавляем атрибут data-one-spoller
 */
-spollers()
+
 function spollers() {
    const spollersArray = document.querySelectorAll('[data-spollers]');
    if (spollersArray.length > 0) {
@@ -192,3 +192,5 @@ function spollers() {
       }
    }
 }
+
+spollers();
