@@ -15,44 +15,44 @@ data-spollers = " 768, **min** " - спойлеры будут работать 
 #
 #### Базовый html (работают все споллеры).
 <pre>
-    &ltdiv data-spollers class="spollers"&gt
-        &lt!-- споллер --&gt
-        &ltdiv class="spollers__item"&gt
-            &ltbutton type="button" data-spoller class="spollers__title"&gtЗаголовок споллера&lt/button&gt
-            &ltdiv class="spollers__body"&gt
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem sunt nostrum odit. Expedita!
-            &lt/div&gt
+&ltdiv data-spollers class="spollers"&gt
+    &lt!-- споллер --&gt
+    &ltdiv class="spollers__item"&gt
+        &ltbutton type="button" data-spoller class="spollers__title"&gtЗаголовок споллера&lt/button&gt
+        &ltdiv class="spollers__body"&gt
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         &lt/div&gt
-        &lt!--  --&gt
     &lt/div&gt
+    &lt!--  --&gt
+&lt/div&gt
 </pre>
 
 #
 #### Базовый html (работает один споллер).
 <pre>
-    &ltdiv data-spollers data-one-spoller class="spollers"&gt
-        &lt!-- споллер --&gt
-        &ltdiv class="spollers__item"&gt
-            &ltbutton type="button" data-spoller class="spollers__title"&gtЗаголовок споллера&lt/button&gt
-            &ltdiv class="spollers__body"&gt
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem sunt nostrum odit. Expedita!
-            &lt/div&gt
+&ltdiv data-spollers data-one-spoller class="spollers"&gt
+    &lt!-- споллер --&gt
+    &ltdiv class="spollers__item"&gt
+        &ltbutton type="button" data-spoller class="spollers__title"&gtЗаголовок споллера&lt/button&gt
+        &ltdiv class="spollers__body"&gt
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         &lt/div&gt
-        &lt!--  --&gt
     &lt/div&gt
+    &lt!--  --&gt
+&lt/div&gt
 </pre>
 
 #
 #### Включать или выключить работу спойлеров на разных размерах экранов.
 <pre>
-    &ltdiv data-spollers="992,max" class="spollers"&gt
-        &lt!-- споллер --&gt
-        &ltdiv class="spollers__item"&gt
-            &ltbutton type="button" data-spoller class="spollers__title"&gtЗаголовок споллера&lt/button&gt
-            &ltdiv class="spollers__body"&gt
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem sunt nostrum odit. Expedita!
-            &lt/div&gt
+&ltdiv data-spollers="992,max" class="spollers"&gt
+    &lt!-- споллер --&gt
+    &ltdiv class="spollers__item"&gt
+        &ltbutton type="button" data-spoller class="spollers__title"&gtЗаголовок споллера&lt/button&gt
+        &ltdiv class="spollers__body"&gt
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         &lt/div&gt
-        &lt!--  --&gt
     &lt/div&gt
+    &lt!--  --&gt
+&lt/div&gt
 </pre>
