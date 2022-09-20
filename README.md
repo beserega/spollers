@@ -16,51 +16,36 @@ data-spollers = " 768, **min** " - спойлеры будут работать 
 [Смотреть демо](https://beserega.github.io/spollers/) ( _Открыть в новой вклвдке_  **CTRL + ЛКМ**  )
 #
 #### Базовый html (работают все споллеры).
-<pre>
-&ltdiv data-spollers class="spollers"&gt
-    &lt!-- споллер --&gt
-    &ltdiv class="spollers__item"&gt
-        &ltbutton type="button" data-spoller class="spollers__title"&gtЗаголовок споллера&lt/button&gt
-        &ltdiv class="spollers__body"&gt
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        &lt/div&gt
-    &lt/div&gt
-    &lt!--  --&gt
-&lt/div&gt
-</pre>
-
-#
-#### Базовый html (работает один споллер).
-<pre>
-&ltdiv data-spollers data-one-spoller class="spollers"&gt
-    &lt!-- споллер --&gt
-    &ltdiv class="spollers__item"&gt
-        &ltbutton type="button" data-spoller class="spollers__title"&gtЗаголовок споллера&lt/button&gt
-        &ltdiv class="spollers__body"&gt
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        &lt/div&gt
-    &lt/div&gt
-    &lt!--  --&gt
-&lt/div&gt
-</pre>
-
-#
-#### Включать или выключить работу спойлеров на разных размерах экранов.
-<pre>
-&ltdiv data-spollers="992,max" class="spollers"&gt
-    &lt!-- споллер --&gt
-    &ltdiv class="spollers__item"&gt
-        &ltbutton type="button" data-spoller class="spollers__title"&gtЗаголовок споллера&lt/button&gt
-        &ltdiv class="spollers__body"&gt
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        &lt/div&gt
-    &lt/div&gt
-    &lt!--  --&gt
-&lt/div&gt
-</pre>
-
 ```
 <div data-spollers class="spollers">
+    <!-- споллер -->
+    <div class="spollers__item">
+        <button type="button" data-spoller class="spollers__title">Заголовок споллера</button>
+        <div class="spollers__body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+    </div>
+    <!--  -->
+</div>
+```
+#
+#### Базовый html (работает один споллер).
+```
+<div data-spollers data-one-spoller class="spollers">
+    <!-- споллер -->
+    <div class="spollers__item">
+        <button type="button" data-spoller class="spollers__title">Заголовок споллера</button>
+        <div class="spollers__body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+    </div>
+    <!--  -->
+</div>
+```
+#
+#### Включать или выключить работу спойлеров на разных размерах экранов.
+```
+<div data-spollers="992,max" class="spollers">
     <!-- споллер -->
     <div class="spollers__item">
         <button type="button" data-spoller class="spollers__title">Заголовок споллера</button>
