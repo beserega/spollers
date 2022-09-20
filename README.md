@@ -11,7 +11,9 @@ data-spollers = " 992, **max** " - спойлеры будут работать 
 data-spollers = " 768, **min** " - спойлеры будут работать только на экранах **больше или равно** _768px_
 
 Если нужно что бы в блоке открывался болько один слойлер добавляем атрибут [ **data-one-spoller** ]
-
+#
+###
+[Смотреть демо](https://beserega.github.io/spollers/) ( _Открыть в новой вклвдке_  **CTRL + ЛКМ**  )
 #
 #### Базовый html (работают все споллеры).
 <pre>
@@ -56,3 +58,16 @@ data-spollers = " 768, **min** " - спойлеры будут работать 
     &lt!--  --&gt
 &lt/div&gt
 </pre>
+
+```
+<div data-spollers class="spollers">
+    <!-- споллер -->
+    <div class="spollers__item">
+        <button type="button" data-spoller class="spollers__title">Заголовок споллера</button>
+        <div class="spollers__body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+    </div>
+    <!--  -->
+</div>
+```
