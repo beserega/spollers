@@ -8,11 +8,11 @@
 
 /* Спойлер */
 .spollers__item {
-	font-size: rem(20);
+	font-size: 20px;
 }
 
 .spollers__item:not(:last-child) {
-	margin-bottom: em(30, 20);
+	margin-bottom: 20px;
 }
 
 /* Заголовок спойлера */
@@ -21,8 +21,8 @@
 	cursor: default;
 	text-align: left;
 	border: 1px solid #eee;
-	padding: rem(10) rem(15);
-	border-radius: rem(5);
+	padding: 10px 15px;
+	border-radius: 5px;
 	position: relative;
 }
 
@@ -60,7 +60,7 @@
 
 /* Контент спойлера */
 .spollers__body {
-	padding: rem(20);
-	border-radius: rem(5);
+	padding: 20px;
+	border-radius: 5px;
 	border: 1px solid #eee;
 }
