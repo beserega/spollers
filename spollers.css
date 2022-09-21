@@ -73,7 +73,7 @@ hr {
 
 /* Контент спойлера */
 .spollers__body {
-/* 	padding: 20px; */
+	padding: 20px;
 	border-radius: 5px;
 	border: 1px solid #eee;
 }
