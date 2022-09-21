@@ -60,3 +60,22 @@ _Например:_<br>
 #
 ###
 [Смотреть демо](https://beserega.github.io/spollers/) ( _Открыть в новой вклвдке_  **CTRL + ЛКМ**  )
+#
+При инициализации споллера к родительскому .
+```html 
+<div data-spollers data-one-spoller class="spollers">
+    <!-- сполер 1 -->
+    <!-- сполер 2 -->
+    <!-- сполер 3 -->
+</div>
+```
+Будет динамически добавлен класс ```_spoller-init```.
+```html 
+<div data-spollers data-one-spoller class="spollers _spoller-init">
+    <!-- сполер 1 -->
+    <!-- сполер 2 -->
+    <!-- сполер 3 -->
+</div>
+```
+#
+Активный (открытый) споллер.
