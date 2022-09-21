@@ -63,7 +63,7 @@ _Например:_<br>
 #
 При инициализации споллера к родительскому .
 ```html 
-<div data-spollers data-one-spoller class="spollers">
+<div data-spollers class="spollers">
     <!-- сполер 1 -->
     <!-- сполер 2 -->
     <!-- сполер 3 -->
@@ -71,11 +71,15 @@ _Например:_<br>
 ```
 Будет динамически добавлен класс ```_spoller-init```.
 ```html 
-<div data-spollers data-one-spoller class="spollers _spoller-init">
+<div data-spollers class="spollers _spoller-init">
     <!-- сполер 1 -->
     <!-- сполер 2 -->
     <!-- сполер 3 -->
 </div>
 ```
 #
-Активный (открытый) споллер.
+Активный (открытый) споллер.<br>
+Заголовок споллера получает класс ```_spoller-active```
+```html
+<button type="button" data-spoller class="spollers__title _spoller-active">Заголовок споллера</button>
+```
