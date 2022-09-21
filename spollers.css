@@ -16,7 +16,7 @@ hr {
 /* Блок со спойлерами */
 .spollers {
 	display: grid;
-/* 	gap: 15px; */
+	gap: 5px;
 }
 
 /* Спойлер */
@@ -25,7 +25,7 @@ hr {
 }
 
 .spollers__item:not(:last-child) {
-	margin-bottom: 5px;
+/* 	margin-bottom: 5px; */
 }
 
 /* Заголовок спойлера */
