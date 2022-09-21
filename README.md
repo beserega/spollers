@@ -115,6 +115,7 @@ _Например:_<br>
 ._spoller-init .spollers__title {
     cursor: pointer;
 }
+
 /* Анимированные стрелки */
 ._spoller-init .spollers__title::before,
 ._spoller-init .spollers__title::after {
